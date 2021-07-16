@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_search"
+        android:icon="@drawable/ic_search"
+        android:title="Pesquisar"
+        android:iconTint="@color/white"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item android:title="New group" />
+    <item android:title="New broadcast" />
+    <item android:title="Linked devices" />
+    <item android:title="Starred messages" />
+    <item android:title="Payments" />
+    <item android:title="Settings" />
+</menu>
